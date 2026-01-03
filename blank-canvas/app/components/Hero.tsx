@@ -5,7 +5,7 @@ export default function Hero() {
 
                 {/* LEFT: TEXT */}
                 <div>
-                    <h1 className="text-5xl font-semibold tracking-tight leading-tight">
+                    <h1 className="text-5xl font-semibold tracking-tight leading-tight text-black">
                         The perfect communication tool for remote teams
                     </h1>
 
@@ -17,7 +17,7 @@ export default function Hero() {
                         <button className="rounded-full bg-blue-600 px-6 py-3 text-sm font-medium text-white">
                             Get started
                         </button>
-                        <button className="rounded-full border border-black/20 px-6 py-3 text-sm font-medium">
+                        <button className="rounded-full border border-black/20 px-6 py-3 text-sm font-medium text-black/70">
                             See how it works
                         </button>
                     </div>
