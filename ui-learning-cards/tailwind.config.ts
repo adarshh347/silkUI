@@ -17,8 +17,13 @@ const config: Config = {
         extend: {
             fontFamily: {
                 "dot": ["var(--font-dot-gothic)", "monospace"],
+                serif: ["var(--font-playfair)", "serif"],
+                sans: ["var(--font-inter)", "sans-serif"],
             },
             colors: {
+                "theme-dark": "rgb(var(--theme-dark) / <alpha-value>)",
+                "theme-light": "rgb(var(--theme-light) / <alpha-value>)",
+                "theme-accent": "rgb(var(--theme-accent) / <alpha-value>)",
                 border: "hsl(var(--border))",
                 input: "hsl(var(--input))",
                 ring: "hsl(var(--ring))",
@@ -71,6 +76,7 @@ const config: Config = {
             animation: {
                 "accordion-down": "accordion-down 0.2s ease-out",
                 "accordion-up": "accordion-up 0.2s ease-out",
+                "spin-slow": "spin 8s linear infinite",
             },
         },
     },
